@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Input</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="main">
+            <div class="main__container">
+                <div class="main__contant">
+                    <img src="img/Google_2015_logo.svg" alt="Google__logo" class="main__logo">
+                    <div class="main__body">
+                        <div class="main__header">
+                            <h2 class="main__title">Создайте аккаунт Google</h2>
+                            <p class="main__subtitle">Перейти в Gmail</p>
+                        </div>
+                        <form class="form" action="#">
+                            <div class="form__name-last-name">
+                                <div class="form__name">
+                                    <label for="name-form">Имя</label>
+                                    <input autocomplete="off" placeholder="Имя" name="name" id="name-form" type="text">
+                                </div>
+                                <div class="form__last-name">
+                                    <label for="last-name-form">Фамилия</label>
+                                    <input autocomplete="off" placeholder="Фамилия" name="name" id="last-name-form" type="text">
+                                </div>
+                            </div>
+                            <div class="form__user-name">
+                                <label for="mail">Имя Пользователя</label>
+                                <input autocomplete="off" placeholder="Имя Пользователя" value="@gmail.com" name="mail" id="mail" type="text">
+                                <label for="mail">Можно использовать буквы латинского алфавита, цифры и точки.</label>
+                            </div>
+                            <div class="form__password">
+                                <div class="form__password-block">
+                                    <input type="password" placeholder="Пароль" id="password" class="form__password-code">
+                                    <input type="password" placeholder="Подтвердить" class="form__confirm-password">
+                                </div>
+                                <label for="password">Пароль должен содержать не менее восьми знаков, включать буквы, цифры и специальные символы</label>
+                            </div>
+                            <div class="form__checkbox">
+                                <input type="checkbox" checked id="checkbox-pass" class="form__chechbox-item">
+                                <label for="checkbox-pass">Показать пароль</label>
+                            </div>
+                            <a href="#captcha-id"><img src="img/main-qimg-25f4af317355179f60f0229018308205-lq.jpeg" alt="captcha" class="form__captcha-img"></a>
+                        </form>
+                    </div>
+                </div>
+                <div class="capcha" id="captcha-id">
+                    <div class="capcha__contant">
+                        <div class="capcha__header">
+                            <h2>Виберіть</h2>
+                            <p class="capcha__task">Виберіть цифру яка повторюється</p>
+                        </div>
+                        <div class="capcha__img img-capcha">
+                            <img src="img/numb/1.jpeg" alt="1" class="img-capcha">
+                            <img src="img/numb/3.jpeg" alt="3" class="img-capcha">
+                            <img src="img/numb/2.png" alt="1" class="img-capcha">
+                            <img src="img/numb/4.jpeg" alt="4" class="img-capcha">
+                        </div>
+                        <div class="capcha__radio">
+                            <form action="#" class="capcha__form">
+                                <div class="capcha__item">
+                                    <label for="01">1</label>
+                                    <input id="01" type="radio">
+                                </div>
+                                <div class="capcha__item">
+                                    <label for="02">2</label>
+                                    <input id="02" type="radio">
+                                </div>
+                                <div class="capcha__item">
+                                    <label for="03">3</label>
+                                    <input id="03" type="radio">
+                                </div>
+                                <div class="capcha__item">
+                                    <label for="04">4</label>
+                                    <input id="04" type="radio">
+                                </div>
+                                <a href="#" class="capcha__send">Send</a>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="message-block">
+                    <div class="message-block__header">
+                        <p class="message-block__subtitle">ANY QUESTIONS?</p>
+                        <h2 class="message-block__title">Drop us a line</h2>
+                    </div>
+                    <form action="#" class="message-block__form message-form">
+                        <div class="message-form__first-last-name">
+                            <div class="message-form__name-item">
+                                <label for="first-name-message">First Name*</label>
+                                <input type="text" name="name" id="first-name-message" placeholder="Your first name" class="message-form__name">
+                            </div>
+                            <div class="message-form__last-name-item">
+                                <label for="last-name-message">Last Name*</label>
+                                <input type="text" name="lastname" id="last-name-message" placeholder="Your Last name" class="message-form__last-name">
+                            </div>
+                        </div>
+                        <div class="message-form__email-item">
+                            <label for="email-message">Email*</label>
+                            <input type="email" name="mail" id="email-message" placeholder="Your working email" class="message-form__last-name">
+                        </div>
+                        <div class="message-form__tel-item">
+                            <label for="tel-message">Phone</label>
+                            <input name="tel-message" id="tel-message" type="tel" class="message-form__tel">
+                        </div>
+                        <div class="message-form__text">
+                            <label for="message-text">Message</label>
+                            <input id="message-text" type="" placeholder="comments">
+                        </div>
+                        <div class="message-form__footer footer-message">
+                            <div class="footer-message__check-block">
+                                <input id="message-text-checkbox" type="checkbox" class="footer-message__check-box">
+                                <label for="message-text-checkbox">I agree to receive communications from Createx Online School</label>
+                            </div>
+                            <a href="#" class="footer-message__btn">Send Message</a>
+                        </div>
+                    </form>
+                </div> -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>
